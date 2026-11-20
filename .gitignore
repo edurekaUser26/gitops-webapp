@@ -1,0 +1,8 @@
+# Secrets and local environment files
+.env
+
+# Dependencies installed by npm
+node_modules/
+
+# Logs
+*.log

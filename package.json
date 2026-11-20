@@ -1,0 +1,11 @@
+{
+    "name": "gitops-webapp",
+    "version": "1.0.0",
+    "description": "A simple Node.js web app deployed with GitOps and Argo CD",
+    "main": "server.js",
+    "private": true,
+    "scripts": {
+      "start": "node server.js",
+      "test": "node --test"
+    }
+  }
