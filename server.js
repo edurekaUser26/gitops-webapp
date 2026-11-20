@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     return;
   }
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello from the GitOps web app!\n");
+  res.end("Welcome to GitOps web app!\n");
 });
 
 server.listen(PORT, () => {
